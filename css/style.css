@@ -1,0 +1,112 @@
+body {
+  display: flex;
+  margin: 0;
+
+}
+
+.container {
+  background-color: #8ad6e9;
+  width: 80%;
+  height: 100vh;
+  margin: auto;
+  
+}
+
+#noteId {
+  width: 40%;
+  padding: 12px 20px;
+  margin: 20px 0;
+  box-sizing: border-box;
+  border-radius: 10px;
+  font-size: 20px;
+  font-family: 'Jost', sans-serif !important;
+  border: 0px solid;
+  outline: none !important;
+  box-shadow: 4px 2px 10px 0px rgba(0, 0, 0, 0.1);
+}
+
+.button {
+  padding: 12px 20px;
+  font-family: 'Jost', sans-serif !important;
+  font-weight: 700;
+  font-size: 20px;
+  border-radius: 10px;
+  border: 0px solid;
+  background-color: rgb(157, 196, 255);
+  outline: none !important;
+  box-shadow: 4px 2px 10px 0px rgba(0, 0, 0, 0.1);
+}
+
+.button:hover {
+  background-color: rgb(96, 177, 224);
+  cursor: pointer;
+  color: antiquewhite;
+  box-shadow: 4px 2px 10px 0px rgba(0, 0, 0, 0.1);
+}
+
+button{
+  background: none;
+}
+
+.insert {
+  text-align: center;
+}
+
+.field {
+  margin: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  width: auto;
+  height: auto;
+}
+
+.note {
+  background-color: white;
+  max-height: 50%;
+  max-width: 300px;
+  padding: 10px;
+  font-family: 'Jost', sans-serif !important;
+  flex-flow: inherit;
+  flex-wrap: wrap-reverse;
+  font-size: 25px;
+  margin: 5px;
+  border-radius: 10px;
+  box-shadow: 4px 2px 10px 0px rgba(0, 0, 0, 0.2);
+}
+
+.edit,
+.del {
+  align-self: flex-end;
+  padding: 5px;
+  font-size: 20px;
+  border: none;
+  margin: 5px;
+  opacity: 0.8;
+  outline: none !important;
+}
+
+.edit:hover,
+.del:hover {
+  opacity: 1;
+  color: black;
+  background: none;
+
+}
+
+.editable {
+  padding: 12px 20px;
+  font-size: 20px;
+  font-family: 'Jost', sans-serif !important;
+  border-radius: 10px;
+  border: 0px solid;
+  color:white;
+  outline: none !important;
+  background-color: rgb(192, 84, 84);
+}
+
+.editable:hover {
+  cursor: pointer;
+  background-color: brown;
+}
